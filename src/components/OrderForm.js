@@ -30,7 +30,6 @@ export default function OrderForm({ orders, setOrders }) {
         setOrders([...orders, coffeeName]);
         setCoffeeName('');
         console.log('Order added:', coffeeName)
-
     };
 
     return (
